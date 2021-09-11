@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Check out the Live Project
+
+This link allows you to see the Project. [https://anuoluwaoyetibo-1ba4e.web.app/](https://anuoluwaoyetibo-1ba4e.web.app/) .
+
 ## Available Scripts
 
 In the project directory, you can run:
