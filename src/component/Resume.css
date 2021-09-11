@@ -1,0 +1,230 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.resume__h4 {
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+
+.resume__top {
+    padding: 20px;
+}
+
+.resume__top h5 {
+    font-size: 1.4rem;
+    /* font-family: 'Julius Sans One', sans-serif; */
+    font-family: 'Limelight', cursive;
+}
+
+.resume__top p {
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+
+.resume__section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 20px;
+}
+
+.resume__article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.article__title{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+    /* font-family: 'Julius Sans One', sans-serif; */
+    font-family: 'Limelight', cursive;
+
+}
+
+.resume__article div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+.article__div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.article__div p {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 14px;
+
+}
+
+.article__div h5 {
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+
+
+.article__div div {
+    margin-left: 35px;
+    margin-top: 10px;
+
+}
+
+
+.article__div div h5 {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.article__div-p {
+    font-size: 12px !important;
+    font-weight: 300;
+}
+
+.article__ui {
+    display: flex;
+    flex-direction: column;
+    list-style: square;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.article__ui li {
+    font-size: 15px;
+    font-weight: 350;
+
+}
+
+.article__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    height: 70vh;
+}
+
+.article__right div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.article__right div h4 {
+    font-family: 'Limelight', cursive;
+}
+
+.article__right div a,
+.article__right div p {
+    text-decoration: none;
+    font-size: 15px;
+    width: 220px;
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+
+.article__right div p {
+    margin-top: 10px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .resume__top {
+        padding: 10px;
+    }
+
+    .resume__top h5 {
+        font-size: 15px;
+    }
+
+    .resume__top p {
+        font-size: 11px;
+    }
+
+    .resume__section {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .resume__article{
+        width: 100%;
+    }
+    .article__div {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+        
+    .article__title{
+        font-size: 12px;
+    }
+
+    .article__div p {
+        font-size: 11px;
+    }
+
+    .article__div h5,
+    .article__div div h5 {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .article__ui {
+        display: flex;
+        flex-direction: column;
+        list-style: square;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+
+    .article__ui li {
+        font-size: 11px;
+    }
+
+    .article__div div {
+        margin-left: 5px;
+    }
+
+        
+    .article__right {
+        padding: 10px;
+        height: 60vh;
+    }
+
+    .article__right div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .article__right div h4 {
+        font-size: 12px;
+    }
+
+    .article__right div a,
+    .article__right div p {
+        width: 90px;
+        font-size: 10px;
+    }
+
+    .article__right div p {
+        margin-top: 5px;
+    }
+   
+}

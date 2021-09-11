@@ -1,0 +1,220 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 20px;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.089);
+}
+
+.home__banner div {
+    width: 45%;
+}
+
+.home__img {
+    width: 40vw;
+    object-fit: contain;
+}
+.home__banner p{
+    font-size: 16px;
+    font-weight: 300;
+    word-spacing: 4px;
+    
+}
+
+.home__h5 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.home__section {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.089);
+
+}
+
+
+.home__section-img {
+    width: 400px;
+    object-fit: contain;
+}
+
+.home__section article {
+    width: 400px;
+}
+
+.article__h4 {
+    font-size: 23px;
+    font-weight: 800;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.article__h4+p {
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 16px;
+    word-spacing: 3px;
+}
+
+.article__p {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    font-weight: 300;
+    opacity: 0.7;
+    margin-top: 20px;
+    height: 40vh;
+    justify-content: space-between;
+}
+
+.mid__section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mid__section h4 {
+    font-weight: 700;
+    font-size: 23px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.mid__section div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 7px;
+    
+}
+
+.mid__section div p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+
+.img__icon{
+    width: 150px;
+    object-fit: contain;
+}
+
+.img__icon-plus {
+    width: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+    .home {
+        width: 90%;
+    }
+
+
+    .home__banner {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .home__banner div {
+        width: 80%;
+    }
+
+    .home__banner p{
+        font-size: 13px;
+        font-weight: 300;
+        word-spacing: 4px;
+        font-family: 'Julius Sans One', sans-serif;
+
+    }
+
+    .home__img {
+        width: 300px;
+    }
+
+    .home__section {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .home__section article {
+        width: 90%;
+        height: 100%;
+    }
+
+    .home__section-img {
+        width: 300px;
+        object-fit: contain;
+    }
+
+    
+
+    .home__section article p{
+        font-size: 14px;
+    }
+
+   
+
+    .article__h4 {
+        font-size: 20px;
+    }
+
+    .article__h4+p {
+        font-weight: 400;
+        margin-bottom: px;
+        font-size: 15px;
+        word-spacing: 0px;
+    }
+
+    .mid__section {
+        display: flex;
+        flex-direction: column;
+    }
+        
+    .mid__section h4 {
+        font-weight: 500;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .mid__section div {
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-gap: 7px;
+        
+    }
+
+    .mid__section div p{
+        
+        font-size: 13px;
+    }
+
+
+    .img__icon{
+        width: 80px;
+        object-fit: contain;
+    }
+
+    .img__icon-plus {
+        width: 190px;
+    }
+}

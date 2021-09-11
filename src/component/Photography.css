@@ -1,0 +1,26 @@
+
+.photography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photography__container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+.photography__img {
+    width: 300px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    .photography__container {
+        display: grid;
+        grid-template-columns: auto ;
+        grid-gap: 20px;
+    }
+}
