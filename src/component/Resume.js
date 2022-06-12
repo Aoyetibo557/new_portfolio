@@ -5,7 +5,7 @@ import { VscHistory } from 'react-icons/vsc';
 import { FaGraduationCap, FaChartBar } from 'react-icons/fa';
 import Footer from './Footer';
 import LinearProgress from '@material-ui/core/LinearProgress';
-import pdf from '../docs/Anuoluwapo - Technical Resume(2021).docx.pdf';
+import pdf from '../docs/Anuoluwapo-Technical Resume(2022).pdf';
 
 function Resume() {
     return (
@@ -83,7 +83,6 @@ function Resume() {
                 <article className="article__right">
                     <div>
                         <h4>Details</h4>
-                        <p>347-891-0138</p>
                         <a href="mailto: aoyetibo@gmail.com">aoyetibo@gmail.com</a>
                     </div>
 

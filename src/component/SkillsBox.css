@@ -1,0 +1,38 @@
+
+.skillbox {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skillbox__img__div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 125px;
+    border-radius: 999px;
+    box-shadow: 5px 10px 20px #e6e1e1;
+    
+
+}
+
+.skillbox__img__div:hover {
+    box-shadow: 10px 10px 20px 10px #e6e1e1;
+
+}
+
+.skillbox__img {
+    width: 60px;
+    object-fit: contain;
+    
+}
+
+.skillbox p {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Julius Sans One', sans-serif;
+
+}

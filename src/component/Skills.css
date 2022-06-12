@@ -1,0 +1,100 @@
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+.skills {
+    width: 90vw ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills>h4 {
+    font-size: 2.2rem;
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+
+.skills__container {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.skills__div {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 70px;
+}
+
+.experience__div {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+ .skills__experience{
+    padding: 5px;
+    width: 30vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+
+ }
+
+ .skills__experience h5 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 20px;
+    color: blueviolet;
+    font-family: 'Julius Sans One', sans-serif;
+ }
+
+ .skills__experience div h4{
+    font-size: 17px;
+    font-family: 'Julius Sans One', sans-serif;
+ }
+
+ .skills__experience div p, .skills__experience div p a {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: lowercase;
+    font-family: 'Julius Sans One', sans-serif;
+    
+ }
+
+@media only screen and (max-width: 768px) {
+
+    .skills>h4 {
+        font-size: 2rem;
+    }
+
+    .skills__container {
+        flex-direction: column;
+    }
+
+    .skills__div {
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        overflow-y: scroll;
+    }
+
+    .experience__div {
+        height: 400px;
+        margin-top: 30px;
+    }
+
+    .skills__experience{
+        width: 100%;
+        margin-top: 0px;
+    }
+}

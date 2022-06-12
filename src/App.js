@@ -1,10 +1,10 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './component/Header';
-import Home from './component/Home';
 import Resume from './component/Resume';
 import Project from './component/Project';
 import Photography from './component/Photography';
+import AltHome from './component/AltHome';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <Route exact path="/" component>
             <div className="app">
               <Header />
-              <Home />
+              <AltHome />
             </div>
           </Route>
 

@@ -35,7 +35,7 @@ function Home() {
                 </div>
             </div>
 
-            <section className="home__section">
+            {/* <section className="home__section">
                 <article data-aos="fade-left" data-aos-duration="2000">
                     <h4 className="article__h4">Frontend Developer Experience</h4>
                     <p>Frontend developer @Develop For Good</p>
@@ -59,7 +59,7 @@ function Home() {
                 </article>
                 <img className="home__section-img" src={FrontendImg} alt="" />
 
-            </section>
+            </section> */}
 
             <section data-aos="zoom-in-right" data-aos-duration="1500" className="mid__section">
                 <h4>Programming, Frameworks & Software Tools</h4>

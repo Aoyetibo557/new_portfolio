@@ -1,0 +1,162 @@
+
+.contact{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h4 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 900;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.contact__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    width: 22vw;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.contact__div a {
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.contact__div:hover {
+    box-shadow: 10px 5px 10px 5px #eee;
+}
+
+.contact__img {
+    width: 3vw;
+    object-fit: contain;
+}
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact__input {
+    padding: 20px;
+    width: 45vw;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 900 !important;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 10px 5px 10px 5px #eee;
+}
+
+.contact__textarea{
+    padding: 20px;
+    width: 45vw;
+    height: 300px;
+    resize: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 900 !important;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 10px 5px 10px 5px #eee;
+}
+
+.contact__input:hover {
+    box-shadow: 5px 10px 40px 10px #e6e1e1;
+}
+
+.button {
+    padding: 10px;
+    width: 150px;
+    margin-top: 10px;
+    background-color: transparent;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(0.90);
+}
+
+.primary__button {
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+}
+
+
+
+.contact__msg {
+    font-size: 1.5rem !important;
+    width: 50vw;
+    text-align: center;
+    margin-top: 30px;  
+    padding: 10px;  
+    background-color: #fff;
+    box-shadow: 10px 5px 10px 5px #eee;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .contact{
+        width: 100%;
+    }
+
+    .contact h4 {
+        font-size: 2rem;
+    }
+
+    .contact__div {        
+        width: 100%;
+    }
+
+    .contact__div a {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .contact__img {
+        width: 40px;
+    }
+
+    .contact__form{
+        width: 100%;
+    }
+
+    .contact__input {
+        width: 100%;
+    }
+
+    .contact__textarea{
+        width: 100%;
+        height: 250px;
+        
+    }
+
+}
