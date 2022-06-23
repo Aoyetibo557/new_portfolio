@@ -14,6 +14,7 @@ import BookmartImage from '../images/bkR.PNG';
 import FoodyImage from "../images/Foody.JPG";
 import AdviceGenImage from "../images/myDesign.JPG";
 import PetlandImage from "../images/Petland.JPG";
+import AirBnBImage from "../images/airbnbClone.JPG";
 import Footer from './Footer';
 
 
@@ -25,6 +26,17 @@ function Project() {
                 <img className="project__img" src={ProjectImage} alt="" />
             </div>
             <div className=" project__container">
+
+                <ProjectBox 
+                    src = {AirBnBImage}
+                    title="AirBnB Landing Page Clone"
+                    descp="Airbnb landing page simple clone."
+                    srcCode="https://github.com/Aoyetibo557/Airbnb-landingpage-clone"
+                    link="https://airbnb-landingpage-clone.vercel.app/"
+                    tag1="ReactJs"
+                    tag2= "Responsive"
+                    tag3 = "Clone App"
+                />
                <ProjectBox 
                     src = {AdviceGenImage}
                     title="Advice Generator"
@@ -46,6 +58,17 @@ function Project() {
                     tag2= "Fierbase"
                     tag3 = "JSON"
                 />
+
+                <ProjectBox 
+                    src = {HuluClone}
+                    title="Hulu Clone App"
+                    description="Responsive Web Clone app of the Hulu Streaming Service, using ReactJs, TMDB API and Firebase google authentication and hosting."
+                    srcCode="https://github.com/Aoyetibo557/Hulu_Clone"
+                    link="https://hulu-clone-304e7.web.app/"
+                    tag1="Firebase AUTH"
+                    tag2= "ReactJs"
+                    tag3 = "TMDB API"
+                /> 
 
                 <ProjectBox 
                     src = {FoodyImage}
@@ -112,7 +135,7 @@ function Project() {
                     link="https://vintage-car.herokuapp.com/index.html"
                     tag1="HTML"
                     tag2= "CSS"
-                    tag3 = ""
+                    tag3 = "JavaScript"
                 />
 
                 <ProjectBox 
@@ -126,16 +149,6 @@ function Project() {
                     tag3 = "Javascript"
                 />
 
-                <ProjectBox 
-                    src = {HuluClone}
-                    title="Hulu Clone App"
-                    description="Responsive Web Clone app of the Hulu Streaming Service, using ReactJs, TMDB API and Firebase google authentication and hosting."
-                    srcCode="https://github.com/Aoyetibo557/Hulu_Clone"
-                    link="https://hulu-clone-304e7.web.app/"
-                    tag1="Firebase AUTH"
-                    tag2= "ReactJs"
-                    tag3 = "TMDB API"
-                /> 
 
                 <ProjectBox 
                     src = {RockPaperSissorsImage}
