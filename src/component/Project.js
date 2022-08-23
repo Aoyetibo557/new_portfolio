@@ -15,6 +15,7 @@ import FoodyImage from "../images/Foody.JPG";
 import AdviceGenImage from "../images/myDesign.JPG";
 import PetlandImage from "../images/Petland.JPG";
 import AirBnBImage from "../images/airbnbClone.JPG";
+import CryptoioImage from "../images/cryptoio.JPG";
 import Footer from './Footer';
 
 
@@ -26,6 +27,17 @@ function Project() {
                 <img className="project__img" src={ProjectImage} alt="" />
             </div>
             <div className=" project__container">
+
+                <ProjectBox 
+                    src = {CryptoioImage}
+                    title="CryptoIO"
+                    descp="Full Stack Web Application. That consumes an API to display the current price of Some crypto currencies."
+                    srcCode="https://github.com/Aoyetibo557/cryptoio"
+                    link="https://cryptoio.vercel.app/"
+                    tag1="ReactJs, CSS, JS"
+                    tag2= "Mobile Responsive"
+                    tag3 = "Fullstack App, API"
+                />
 
                 <ProjectBox 
                     src = {AirBnBImage}
