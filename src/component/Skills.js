@@ -47,27 +47,35 @@ function Skills() {
 
             <div className='experience__div'>
                 <div data-aos="flip-down" data-aos-duration="1000" className='skills__experience'>
-                    <h5>2021</h5>
+                    <h5>NOV 2022 - FEB 2023</h5>
+                    <div>
+                        <h4>CertiK FULL STACK DEVELOPER ASSOCIATE/INTERN</h4>
+                        <p>[ CertiK, Matrix Team ]</p>
+                    </div>
+                </div>
+
+                <div data-aos="flip-down" data-aos-duration="1100" className='skills__experience'>
+                    <h5>SEP 2021 - MAY 2022</h5>
                     <div>
                         <h4>CUNY TECH PREP FULLSTACK DEVELOPMENT PROGRAM, Fullstack Developer</h4>
-                        <p> <a href='https://cunytechprep.nyc/' target="_blank" rel='noreferrer'>Cuny Tech Prep</a> </p>
+                        <p> <a href='https://cunytechprep.nyc/' target="_blank" rel='noreferrer'>[ Cuny Tech Prep ]</a> </p>
                     </div>
                 </div>
 
 
                 <div data-aos="flip-down" data-aos-duration="1200" className='skills__experience'>
-                    <h5>2021</h5>
+                    <h5>APRIL 2021 - JULY 2021</h5>
                     <div>
                         <h4>DEVELOP FOR GOOD, Climate Donor (Remote), Frontend Developer</h4>
-                        <p> <a href='https://developforgood.org/' target="_blank" rel='noreferrer'>Develop for Good</a> </p>
+                        <p> <a href='https://developforgood.org/' target="_blank" rel='noreferrer'>[ Develop for Good ]</a> </p>
                     </div>
                 </div>
 
-                <div data-aos="flip-down" data-aos-duration="1400" className='skills__experience'>
-                    <h5>2020</h5>
+                <div data-aos="flip-down" data-aos-duration="1300" className='skills__experience'>
+                    <h5>JULY 2020 - SEP 2020</h5>
                     <div>
                         <h4>NYC BLOCKCHAIN CENTER, Software Engineering Internship</h4>
-                        <p> NYC BLOCKCHAIN CENTER </p>
+                        <p> [ NYC Blockchain Center ] </p>
                     </div>
                 </div>
             </div>

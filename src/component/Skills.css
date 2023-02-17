@@ -42,31 +42,31 @@
  .skills__experience{
     padding: 5px;
     width: 30vw;
-    height: 100px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    margin-top: 20px;
 
  }
 
  .skills__experience h5 {
-    font-weight: 700;
-    font-size: 18px;
-    margin-right: 20px;
+    font-weight: 800;
+    font-size: 13px;
+    margin-bottom: 5px;
     color: blueviolet;
     font-family: 'Julius Sans One', sans-serif;
  }
 
  .skills__experience div h4{
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Julius Sans One', sans-serif;
  }
 
  .skills__experience div p, .skills__experience div p a {
     font-size: 14px;
-    font-weight: 500;
-    text-transform: lowercase;
+    margin-top: 3px;
+    font-weight: 700;
+    color: #888;
+    text-transform: capitalize;
     font-family: 'Julius Sans One', sans-serif;
     
  }
